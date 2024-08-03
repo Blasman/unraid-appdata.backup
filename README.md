@@ -1,5 +1,8 @@
 # Appdata Backup
 
+## Per-Container Script Mod
+Added a "per-container script" option so that docker container datasets can have ZFS snapshots taken of them while they are stopped by Appdata.Backup.
+
 ### for Unraid 6.12+
 Support: https://forums.unraid.net/topic/137710-plugin-appdatabackup/
 
