@@ -71,6 +71,7 @@ class ABSettings {
     public string $preBackupScript = '';
     public string $postBackupScript = '';
     public string $postRunScript = '';
+    public string $ContainerScript = '';
     public array $includeFiles = [];
     public array $globalExclusions = [];
     public string $backupVMMeta = 'yes';
