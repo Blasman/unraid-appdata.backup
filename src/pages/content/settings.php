@@ -779,6 +779,18 @@ HTML;
                 path</code>, <code>true|false</code> (true on backup success, false otherwise)</p>
     </blockquote>
 
+    <dl>
+        <dt>Per-container script</dt>
+        <dd><input style="width: 500px;" type='text' class='ftAttach' id="ContainerScript" name="ContainerScript"
+                   value="<?= $abSettings->ContainerScript ?>"
+                   data-pickroot="/mnt/"/></dd>
+    </dl>
+
+    <blockquote class='inline_help'>
+        <p>Runs the selected script for each container while said container is stopped (before anything else happens). Sent arguments: <code>container</code>,
+            <code>container_name</code></p>
+    </blockquote>
+	
     <div class="title"><span class="left"><i class="fa fa-plus-square title"></i>Some extra options</span></div>
 
     <dl>
