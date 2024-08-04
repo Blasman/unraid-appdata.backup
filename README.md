@@ -1,23 +1,5 @@
-# Appdata Backup
+# Appdata Backup Per-Container Script Mod
 
-## Per-Container Script Mod
-Added a "per-container script" option so that docker container datasets can have ZFS snapshots taken of them while they are stopped by Appdata.Backup.
+Added a "per-container script" option that runs a custom script for each container just before the tarfile is created for that container (while the container is stopped, if enabled). I wanted a way to sandwich in a ZFS snapshot script while the containers were already stopped for regular backups.
 
-### for Unraid 6.12+
-Support: https://forums.unraid.net/topic/137710-plugin-appdatabackup/
-
-### Stats
-
-Overall downloads ever:  
-![GitHub all releases](https://img.shields.io/github/downloads/Commifreak/unraid-appdata.backup/total)
-
-Stable:  
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Commifreak/unraid-appdata.backup)
-![GitHub release (latest by date)](https://img.shields.io/github/downloads/Commifreak/unraid-appdata.backup/latest/total)
-
-Beta (active, if newer than stable):  
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/Commifreak/unraid-appdata.backup?include_prereleases)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/downloads-pre/Commifreak/unraid-appdata.backup/latest/total)
-
-
-
+![Image](https://imgur.com/1w2yO9j.png)
